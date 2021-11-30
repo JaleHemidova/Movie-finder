@@ -1,0 +1,95 @@
+.border{
+    border: 1px solid green !important;
+    border-radius: 5px;
+    position: relative;
+}
+.poster{
+    float: right;
+}
+.bg{
+    background-color: lightyellow;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input{
+    width: 300px;    
+    outline: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.input-group{
+    padding-left: 250px;   
+}
+button{
+    margin-left: 3px !important;
+    height: 42px;
+    outline: 0 !important;
+}
+button:hover{
+    background-color: chocolate !important;
+    color: white !important;
+}
+button:focus{
+    box-shadow: none !important;
+}
+/* .poster, .info{
+    border: 1px solid green;
+} */
+body{
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+}
+body::before{
+    content: "";
+    position: absolute;
+    background-image: url(Movie.jpg); 
+    background-size: cover; 
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .4;
+}
+/* body > div{
+    background-image: url("Movie.jpg");
+    position: fixed;
+    background-size: cover; 
+    background-position: center;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+*/
+h1{
+    font-size: 52px;
+}
+header{
+    padding: 205px;
+    position: relative;
+    z-index: 2;
+}
+@media (max-width: 576px) {
+    h1, h4{
+        margin-left: -180px ;
+        margin-right: -180px ;
+    }
+    h1{
+        font-size: 36px;
+    }
+    .search-input{
+        margin-left: -400px !important;
+    }
+    .search{
+        margin-right: -200px !important;
+    }
+    main .col-lg-3{
+        margin-left: -40px ;
+        margin-bottom: 5px ;
+    }
+}
