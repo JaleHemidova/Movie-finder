@@ -1,6 +1,6 @@
 $("button").on("click", function () {
     
-    var movieUrl = "http://www.omdbapi.com/";
+    var movieUrl = "https://www.omdbapi.com/";
     var movieName = $("input").val();
     //console.log(movieName);
     $.ajax({
