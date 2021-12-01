@@ -93,3 +93,122 @@ header{
         margin-bottom: 5px ;
     }
 }
+@media (max-width: 454px) {
+    h1, h4{
+        margin-left: -120px !important;
+        margin-right: -160px !important;
+    }
+    .input-group{
+        margin-left: 10px !important;
+        margin-right: 0 !important;
+    }
+    body::before{
+        margin-right: -80px !important;
+    }
+    main .col-lg-3{
+        margin-left: 40px;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 400px) {
+    h1, h4{
+        margin-left: -120px !important;
+        margin-right: -160px !important;
+    }
+    .input-group{
+        margin-left: -10px !important;
+        margin-right: 0 !important;
+    }
+    body::before{
+        margin-right: -80px !important;
+    }
+    main .col-lg-3{
+        margin-left: 40px;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 375px) {
+    h1, h4{
+        margin-left: -120px !important;
+        margin-right: -160px !important;
+    }
+    .input-group{
+        margin-left: -20px !important;
+        margin-right: 0 !important;
+    }
+    body::before{
+        margin-right: -80px !important;
+    }
+    main .col-lg-3{
+        margin-left: 40px;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 350px) {
+    h1, h4{
+        margin-left: -120px !important;
+        margin-right: -160px !important;
+    }
+    .input-group{
+        margin-left: -30px !important;
+        margin-right: 0 !important;
+    }
+    body::before{
+        margin-right: -80px !important;
+    }
+    main .col-lg-3{
+        margin-left: 40px;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 340px) {
+    h1, h4{
+        margin-left: -140px !important;
+        margin-right: -140px !important;
+    }
+    .input-group{
+        margin-left: -40px !important;
+        margin-right: 0 !important;
+    }
+    body::before{
+        margin-right: -80px !important;
+    }
+    main .col-lg-3{
+        margin-left: 40px;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 320px) {
+    h1, h4{
+        margin-left: -150px !important;
+        margin-right: -130px !important;
+    }
+    .input-group{
+        margin-left: -45px !important;
+        margin-right: 0 !important;
+    }
+    body::before{
+        margin-right: -80px !important;
+    }
+    main .col-lg-3{
+        margin-left: 40px;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 310px) {
+    h1, h4{
+        margin-left: -150px !important;
+        margin-right: -130px !important;
+    }
+    .input-group{
+        margin-left: -50px !important;
+        margin-right: 0 !important;
+    }
+    body::before{
+        margin-right: -80px !important;
+    }
+    main .col-lg-3{
+        margin-left: 40px;
+        margin-bottom: 5px;
+    }
+}
